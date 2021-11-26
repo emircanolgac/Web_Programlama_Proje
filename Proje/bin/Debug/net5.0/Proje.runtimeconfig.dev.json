@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\emirl\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\emirl\\.nuget\\packages"
+    ]
+  }
+}
