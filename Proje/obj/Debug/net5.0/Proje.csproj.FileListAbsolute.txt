@@ -38,3 +38,44 @@ C:\Users\emirl\Masaüstü\Web Proje\Proje\obj\Debug\net5.0\ref\Proje.dll
 C:\Users\emirl\Masaüstü\Web Proje\Proje\obj\Debug\net5.0\Proje.pdb
 C:\Users\emirl\Masaüstü\Web Proje\Proje\obj\Debug\net5.0\Proje.genruntimeconfig.cache
 C:\Users\emirl\Masaüstü\Web Proje\Proje\obj\Debug\net5.0\Proje.csproj.CopyComplete
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\appsettings.json
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\Proje.StaticWebAssets.xml
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\Proje.exe
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\Proje.deps.json
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\Proje.runtimeconfig.json
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\Proje.runtimeconfig.dev.json
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\Proje.dll
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\ref\Proje.dll
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\Proje.pdb
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\Proje.Views.dll
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\bin\Debug\net5.0\Proje.Views.pdb
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.csproj.AssemblyReference.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.AssemblyInfoInputs.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.AssemblyInfo.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.csproj.CoreCompileInputs.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.RazorAssemblyInfo.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.RazorAssemblyInfo.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\scopedcss\bundle\Proje.styles.css
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\staticwebassets\Proje.StaticWebAssets.Manifest.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.TagHelpers.input.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.TagHelpers.output.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.RazorCoreGenerate.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Razor\Views\Home\Admin_Login.cshtml.g.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.RazorTargetAssemblyInfo.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.RazorTargetAssemblyInfo.cs
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.Views.pdb
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.dll
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\ref\Proje.dll
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.pdb
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.genruntimeconfig.cache
+C:\Users\emirl\Masaüstü\web_proje\Web_Programlama_Proje\Proje\obj\Debug\net5.0\Proje.csproj.CopyComplete
