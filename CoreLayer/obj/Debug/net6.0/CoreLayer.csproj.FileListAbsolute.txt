@@ -1,0 +1,12 @@
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\bin\Debug\net6.0\CoreLayer.deps.json
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\bin\Debug\net6.0\CoreLayer.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\bin\Debug\net6.0\ref\CoreLayer.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\bin\Debug\net6.0\CoreLayer.pdb
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\obj\Debug\net6.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\obj\Debug\net6.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\obj\Debug\net6.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\obj\Debug\net6.0\CoreLayer.AssemblyInfo.cs
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\obj\Debug\net6.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\obj\Debug\net6.0\CoreLayer.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\obj\Debug\net6.0\ref\CoreLayer.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\CoreLayer\obj\Debug\net6.0\CoreLayer.pdb
