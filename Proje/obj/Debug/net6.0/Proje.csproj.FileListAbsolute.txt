@@ -124,10 +124,6 @@ C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\MessagePa
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\MessagePack.Annotations.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.Build.dll
-C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.Build.Tasks.Core.dll
-C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.Build.Utilities.Core.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -162,13 +158,11 @@ C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\NuGet.Pac
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\NuGet.Versioning.dll
-C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\System.Composition.Hosting.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\System.Composition.Runtime.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\System.Composition.TypedParts.dll
-C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\System.Resources.Extensions.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -328,3 +322,4 @@ C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\zh-Hant\M
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.Build.Locator.dll
