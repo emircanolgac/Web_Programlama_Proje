@@ -9,8 +9,14 @@ namespace Proje.Controllers
         ArticleManager bm = new ArticleManager(new EfArticleRepository());
         public IActionResult Index()
         {
-            var values = bm.GetList();
+            var values = bm.GetArticleListWithCategory();
             return View(values);
+        }
+
+        public IActionResult ArticleReadAll(int id)
+        {
+            var values = bm.GetArticleByID(id);
+            return View(values); 
         }
     }
 }

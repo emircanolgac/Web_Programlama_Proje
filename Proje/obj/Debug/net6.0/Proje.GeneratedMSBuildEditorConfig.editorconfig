@@ -15,12 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Article/ArticleReadAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxBcnRpY2xlUmVhZEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Article/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Comment/commentListByArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxjb21tZW50TGlzdEJ5QXJ0aWNsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Comment/partialAddComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxwYXJ0aWFsQWRkQ29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Home/Index.cshtml]
