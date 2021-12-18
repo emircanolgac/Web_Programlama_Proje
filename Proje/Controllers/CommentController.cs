@@ -1,9 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer.Concreate;
+using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Proje.Controllers
 {
     public class CommentController : Controller
     {
+        CommentManager cm = new CommentManager(new EfCommentRepository());
+
         public IActionResult Index()
         {
             return View();
@@ -13,9 +17,10 @@ namespace Proje.Controllers
             return PartialView();
         }
 
-        public PartialViewResult commentListByArticle()
+        public PartialViewResult commentListByArticle(int id)
         {
-            return PartialView();
+            var values = cm.GetList(id);
+            return PartialView(values);
         }
 
     }
