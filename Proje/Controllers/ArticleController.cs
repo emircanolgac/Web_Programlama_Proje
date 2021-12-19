@@ -15,6 +15,7 @@ namespace Proje.Controllers
 
         public IActionResult ArticleReadAll(int id)
         {
+            ViewBag.Id = id;
             var values = bm.GetArticleByID(id);
             return View(values); 
         }
