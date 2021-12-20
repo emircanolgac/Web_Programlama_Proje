@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1ML7z9W2o0DSeUpoTy/HX32Rl6uPSZjs0Q8m2HUXVg0L9gmParfFskhZ8aUOJNihoPQzcVP7Kaw5ADdHIZrYRQ==",
+  "dgSpecHash": "leelpynglkT7BI+B3Wx+YLB5bBAC96qYXNeYUcl5aBit6kzekk4YEDSA5r9LMYJ9Fbt2Ro3tZnwIo0i4urj4Ww==",
   "success": true,
   "projectFilePath": "C:\\Users\\emirl\\Masaüstü\\Web_Programlama_Proje\\Proje\\Proje.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\emirl\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\emirl\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+    "C:\\Users\\emirl\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
     "C:\\Users\\emirl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\emirl\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\emirl\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

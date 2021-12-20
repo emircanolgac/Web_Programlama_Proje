@@ -91,9 +91,14 @@ namespace DataAccessLayer.Migrations
                     b.Property<int>("CategoryID")
                         .HasColumnType("int");
 
+                    b.Property<int>("WriterID")
+                        .HasColumnType("int");
+
                     b.HasKey("ArticleId");
 
                     b.HasIndex("CategoryID");
+
+                    b.HasIndex("WriterID");
 
                     b.ToTable("Articles");
                 });
@@ -237,18 +242,26 @@ namespace DataAccessLayer.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("EntityLayer.Concreate.Writer", "Writer")
+                        .WithMany("Articles")
+                        .HasForeignKey("WriterID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("Writer");
                 });
 
             modelBuilder.Entity("EntityLayer.Concreate.Comment", b =>
                 {
-                    b.HasOne("EntityLayer.Concreate.Article", "Article")
+                    b.HasOne("EntityLayer.Concreate.Article", "Articles")
                         .WithMany("Comments")
                         .HasForeignKey("ArticleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Article");
+                    b.Navigation("Articles");
                 });
 
             modelBuilder.Entity("EntityLayer.Concreate.Article", b =>
@@ -257,6 +270,11 @@ namespace DataAccessLayer.Migrations
                 });
 
             modelBuilder.Entity("EntityLayer.Concreate.Category", b =>
+                {
+                    b.Navigation("Articles");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concreate.Writer", b =>
                 {
                     b.Navigation("Articles");
                 });

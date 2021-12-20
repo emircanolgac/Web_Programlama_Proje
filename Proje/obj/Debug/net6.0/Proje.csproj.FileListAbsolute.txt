@@ -323,3 +323,7 @@ C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\runtimes\
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\obj\Debug\net6.0\Proje.MvcApplicationPartsAssemblyInfo.cs
