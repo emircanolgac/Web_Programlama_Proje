@@ -1,0 +1,38 @@
+﻿@model EntityLayer.Concreate.Article
+
+
+@{
+    ViewData["Title"] = "ArticleAdd";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+<h1>Yeni Makale Oluştur</h1>
+<br />
+@using(Html.BeginForm("ArticleAdd", "Article", FormMethod.Post))
+{
+    @Html.Label("Makale Başlığı")
+    @Html.TextBoxFor(x=>x.ArticleTitle, new {@class="form-control"})
+    @Html.ValidationMessageFor(x=>x.ArticleTitle)
+    <br />
+
+    @Html.Label("Makale Görseli")
+    @Html.TextBoxFor(x=>x.ArticleImage, new {@class="form-control"})
+    @Html.ValidationMessageFor(x=>x.ArticleImage)
+    <br />
+
+    @Html.Label("Makalenin Küçük Görseli")
+    @Html.TextBoxFor(x=>x.ArticleThumbnailImage, new {@class="form-control"})
+    <br />
+
+    @Html.Label("Kategori")
+    @Html.TextBoxFor(x=>x.CategoryID, new {@class="form-control"})
+    <br />
+    
+    @Html.Label("Makale İçeriği")
+    @Html.TextAreaFor(x=>x.ArticleContent, 15, 3, new {@class="form-control"})
+    @Html.ValidationMessageFor(x=>x.ArticleContent)
+    <br />
+
+    <button class="btn btn-info">Kaydet</button>
+    
+}

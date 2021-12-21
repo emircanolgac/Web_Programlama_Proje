@@ -18,21 +18,6 @@ namespace BusinessLayer.Concreate
             _articleDal = articleDal;
         }
 
-        public void ArticleAdd(Article article)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void ArticleDelete(Article article)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void ArticleUpdate(Article article)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Article> GetArticleListWithCategory()
         {
             return _articleDal.GetListWithCategory();
@@ -53,9 +38,34 @@ namespace BusinessLayer.Concreate
             return _articleDal.GetListAll();
         }
 
+        public List<Article> GetLast3Article()
+        {
+            return _articleDal.GetListAll().Take(3).ToList();  
+        }
+
         public List<Article> GetArticleListByWriter(int id)
         {
             return _articleDal.GetListAll(x => x.WriterID == id);
+        }
+
+        public void TAdd(Article t)
+        {
+            _articleDal.Insert(t);
+        }
+
+        public void TDelete(Article t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TUpdate(Article t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Article GetById(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -5,7 +5,6 @@ namespace Proje.Controllers
 {
     public class WriterController : Controller
     {
-        [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
@@ -18,6 +17,20 @@ namespace Proje.Controllers
         public IActionResult WriterMail()
         {
             return View();
+        }
+
+        public IActionResult Test()
+        {
+            return View();
+        }
+
+        public PartialViewResult WriterNavbarPartial()
+        {
+            return PartialView();
+        }
+        public PartialViewResult WriterFooterPartial()
+        {
+            return PartialView();
         }
     }
 }

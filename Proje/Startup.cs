@@ -28,8 +28,6 @@ namespace Proje
         {
             services.AddControllersWithViews();
 
-            services.AddSession();
-
             services.AddMvc(config =>
             {
                 var policy = new AuthorizationPolicyBuilder()
@@ -39,11 +37,10 @@ namespace Proje
             });
 
             services.AddMvc();
-            services.AddAuthentication(
-                CookieAuthenticationDefaults.AuthenticationScheme)
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(x =>
                 {
-                    x.LoginPath = "/Login/Index";
+                    x.LoginPath = "/Login/Index/";
                 }
             );
         }
@@ -67,7 +64,7 @@ namespace Proje
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseSession();
+            app.UseAuthentication();
 
             app.UseRouting();
 
