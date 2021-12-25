@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "++JCMoJafKuaH25zKcAs3yUt+DPquIAxeCxZnCp5XmU=",
+  "Hash": "ygcALmf/HvMkBdUXi3eIitrPdFy6tixmuhCWJGhsl50=",
   "Source": "Proje",
   "BasePath": "_content/Proje",
   "Mode": "Default",
@@ -19480,6 +19480,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\inspinia-gh-pages\\img\\profile_big.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emirl\\Masaüstü\\Web_Programlama_Proje\\Proje\\wwwroot\\inspinia-gh-pages\\img\\profile_photo.jpg",
+      "SourceId": "Proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirl\\Masaüstü\\Web_Programlama_Proje\\Proje\\wwwroot\\",
+      "BasePath": "_content/Proje",
+      "RelativePath": "inspinia-gh-pages/img/profile_photo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\inspinia-gh-pages\\img\\profile_photo.jpg"
     },
     {
       "Identity": "C:\\Users\\emirl\\Masaüstü\\Web_Programlama_Proje\\Proje\\wwwroot\\inspinia-gh-pages\\img\\profile_small.jpg",
