@@ -1,0 +1,32 @@
+﻿@model EntityLayer.Concreate.Article
+
+@{
+    ViewData["Title"] = "EditArticle";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+<h1>Makale Düznleme Sayfası</h1>
+<br />
+@using(Html.BeginForm("EditArticle", "Article", FormMethod.Post))
+{
+    @Html.Label("Makele ID")
+    @Html.TextBoxFor(x=>x.ArticleId, new {@class="form-control"})
+    <br />
+    @Html.Label("Makale Başlığı")
+    @Html.TextBoxFor(x=>x.ArticleTitle, new {@class="form-control"})
+    <br />
+    @Html.Label("Makale Thumbnail URL")
+    @Html.TextBoxFor(x=>x.ArticleThumbnailImage, new {@class="form-control"})
+    <br />
+    @Html.Label("Makale Görseli")
+    @Html.TextBoxFor(x=>x.ArticleImage, new {@class="form-control"})
+    <br />
+    @Html.Label("Makale Kategori")
+    @Html.DropDownListFor(x=>x.CategoryID, (List<SelectListItem>)ViewBag.cv, new {@class="form-control"})
+    <br />
+    @Html.Label("Makale İçeriği")
+    @Html.TextAreaFor(x=>x.ArticleContent, 10, 3, new {@class="form-control"})
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+}
+

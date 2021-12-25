@@ -5,13 +5,18 @@ using EntityLayer.Concreate;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Proje.Controllers
 {
     [AllowAnonymous]
     public class ArticleController : Controller
     {
+        CategoryManager cm = new CategoryManager(new EfCategoryRepository());
+
         ArticleManager bm = new ArticleManager(new EfArticleRepository());
         public IActionResult Index()
         {
@@ -28,7 +33,7 @@ namespace Proje.Controllers
 
         public IActionResult ArticleListByWriter()
         {
-            var values = bm.GetArticleListByWriter(1);
+            var values = bm.GetListWithCategoryByWriterBm(1);
             
             return View(values);
         }
@@ -36,6 +41,13 @@ namespace Proje.Controllers
         [HttpGet]
         public IActionResult ArticleAdd()
         {
+            List<SelectListItem> categoryValues = (from x in cm.GetList()
+                                                    select new SelectListItem
+                                                    {
+                                                        Text = x.CategoryName,
+                                                        Value = x.CategoryID.ToString(),
+                                                    }).ToList();
+            ViewBag.cv = categoryValues;
             return View();
         }
 
@@ -61,6 +73,38 @@ namespace Proje.Controllers
             }
 
             return View();
+        }
+
+        public IActionResult DeleteArticle(int id)
+        {
+            var articleValue = bm.TGetById(id);
+            bm.TDelete(articleValue);
+
+            return RedirectToAction("ArticleListByWriter", "Article");
+        }
+
+        [HttpGet]
+        public IActionResult EditArticle(int id)
+        {
+            var articleValue = bm.TGetById(id);
+            List<SelectListItem> categoryValues = (from x in cm.GetList()
+                                                   select new SelectListItem
+                                                   {
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID.ToString(),
+                                                   }).ToList();
+            ViewBag.cv = categoryValues;
+            return View(articleValue);
+        }
+
+        [HttpPost]
+        public IActionResult EditArticle(Article p)
+        {
+            p.WriterID = 1;
+            p.ArticleCreateDate=DateTime.Parse(DateTime.Now.ToShortDateString());
+            p.ArticleStatus = true;
+            bm.TUpdate(p);
+            return RedirectToAction("ArticleListByWriter");
         }
     }
 }

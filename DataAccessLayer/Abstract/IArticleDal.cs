@@ -10,5 +10,6 @@ namespace DataAccessLayer.Abstract
     public interface IArticleDal : IGenericDal<Article>
     {
         List<Article> GetListWithCategory();
+        List<Article> GetListWithCategoryByWriter(int id);
     }
 }

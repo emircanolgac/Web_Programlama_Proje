@@ -23,9 +23,14 @@ namespace BusinessLayer.Concreate
             return _articleDal.GetListWithCategory();
         }
 
-        public Article GetByID(int id)
+        public List<Article> GetListWithCategoryByWriterBm(int id)
         {
-            throw new NotImplementedException();
+            return _articleDal.GetListWithCategoryByWriter(id).ToList();
+        }
+
+        public Article TGetById(int id)
+        {
+            return _articleDal.GetByID(id);
         }
 
         public List<Article> GetArticleByID(int id)
@@ -55,12 +60,12 @@ namespace BusinessLayer.Concreate
 
         public void TDelete(Article t)
         {
-            throw new NotImplementedException();
+            _articleDal.Delete(t);
         }
 
         public void TUpdate(Article t)
         {
-            throw new NotImplementedException();
+            _articleDal.Update(t);
         }
 
         public Article GetById(int id)

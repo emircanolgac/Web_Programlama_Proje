@@ -327,3 +327,6 @@ C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\FluentVal
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\obj\Debug\net6.0\Proje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\emirl\Masaüstü\Web_Programlama_Proje\Proje\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
