@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concreate;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concreate;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concreate;
 using FluentValidation.Results;
@@ -12,12 +13,13 @@ using System.Linq;
 
 namespace Proje.Controllers
 {
-    [AllowAnonymous]
     public class ArticleController : Controller
     {
         CategoryManager cm = new CategoryManager(new EfCategoryRepository());
 
         ArticleManager bm = new ArticleManager(new EfArticleRepository());
+        Context c = new Context();
+
         public IActionResult Index()
         {
             var values = bm.GetArticleListWithCategory();
@@ -33,7 +35,9 @@ namespace Proje.Controllers
 
         public IActionResult ArticleListByWriter()
         {
-            var values = bm.GetListWithCategoryByWriterBm(1);
+            var usermail = User.Identity.Name;
+            var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
+            var values = bm.GetListWithCategoryByWriterBm(writerID);
             
             return View(values);
         }
@@ -54,13 +58,16 @@ namespace Proje.Controllers
         [HttpPost]
         public IActionResult ArticleAdd(Article p)
         {
+            var usermail = User.Identity.Name;
+            var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
+
             ArticleValidator av = new ArticleValidator();
             ValidationResult results = av.Validate(p);
             if (results.IsValid)
             {
                 p.ArticleStatus = true;
                 p.ArticleCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-                p.WriterID = 1;
+                p.WriterID = writerID;
                 bm.TAdd(p);
                 return RedirectToAction("ArticleListByWriter", "Article");
             }
@@ -100,7 +107,10 @@ namespace Proje.Controllers
         [HttpPost]
         public IActionResult EditArticle(Article p)
         {
-            p.WriterID = 1;
+            var usermail = User.Identity.Name;
+            var writerID = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterID).FirstOrDefault();
+
+            p.WriterID = writerID;
             p.ArticleCreateDate=DateTime.Parse(DateTime.Now.ToShortDateString());
             p.ArticleStatus = true;
             bm.TUpdate(p);

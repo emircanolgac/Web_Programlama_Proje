@@ -135,6 +135,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXJ0aWNsZUxpc3REYXNoYm9hcmRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Shared/Components/CategoryListDashboard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlMaXN0RGFzaGJvYXJkXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Shared/Components/CategoryList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlMaXN0XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -145,6 +149,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Shared/Components/CommentsList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ29tbWVudHNMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Shared/Components/WriterAboutOnDashboard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcV3JpdGVyQWJvdXRPbkRhc2hib2FyZFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Shared/Components/WriterLastArticle/Default.cshtml]
@@ -197,6 +205,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Writer/Test.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3JpdGVyXFRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Writer/WriterAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3JpdGVyXFdyaXRlckFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Writer/WriterEditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3JpdGVyXFdyaXRlckVkaXRQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emirl/Masaüstü/Web_Programlama_Proje/Proje/Views/Writer/WriterFooterPartial.cshtml]

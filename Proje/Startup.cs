@@ -79,7 +79,7 @@ namespace Proje
 
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Article}/{action=Index}/{id?}");
             });
         }
     }
